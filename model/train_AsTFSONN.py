@@ -23,11 +23,13 @@ import torch
 from torch import nn
 from torchsummary import summary
 
+# Load the signals
 sig_dict=mat73.loadmat('/content/gdrive/MyDrive/ARKA/Asthma_classification/all_sigs.mat')
 sig=sig_dict['all_sig'];
 sig=sig.transpose()
 print(sig.shape)
 
+# Load the labels
 labels=pd.read_excel('/content/gdrive/MyDrive/ARKA/Asthma_classification/labels.xlsx',header=None)
 l=np.array(labels)
 label_list=[]
@@ -39,6 +41,7 @@ for i in range (1362):
 Y=np.array(label_list)
 print(Y.shape)
 
+# Create mel spectrograms
 r=len(sig[:,1])
 nfft=1024
 win_length=1024
@@ -60,6 +63,7 @@ print('shape of prev spectrogram dataset'+str(np.shape(X)))
 X=np.reshape(X,(1362,1,64,64))
 print('shape of one spectrogram dataset'+str(np.shape(X)))
 
+# create dataset and data loading functions for train, validation and test set
 def create_datasets(X, y, test_size=0.15,seed=None):
     X_train1, X_test, y_train1, y_test = train_test_split(X, Y, test_size=0.1,random_state=seed)
     print(y_test.shape)
@@ -83,8 +87,8 @@ trn_ds, val_ds, tst_ds = create_datasets(X,Y,seed=25)
 bs = 128
 trn_dl, val_dl,tst_dl = create_loaders(trn_ds, val_ds,tst_ds, bs)
 
-
-class ONNNetwork(nn.Module):
+# Create AsTFSONN model
+class AsTFSONN(nn.Module):
 
     def __init__(self):
         super().__init__()
@@ -140,9 +144,10 @@ class ONNNetwork(nn.Module):
         return x#logits
 
 device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
-model = ONNNetwork().to(device)
+model = AsTFSONN().to(device)
 summary(model, (1, 64, 64))
 
+# Train the model
 lr = 0.001
 n_epochs = 252
 iterations_per_epoch = len(trn_dl)
@@ -157,9 +162,7 @@ valloss_history = []
 criterion = nn.CrossEntropyLoss()
 opt = torch.optim.Adam(model.parameters(), lr=lr)
 
-
 print('Start model training')
-
 for epoch in range(1, n_epochs + 1):
     for i, (x_batch, y_batch) in enumerate(trn_dl):
         model.train()
@@ -191,6 +194,7 @@ for epoch in range(1, n_epochs + 1):
     valacc_history.append(valid_acc)
     print(f'Epoch: {epoch:3d}. Training Loss: {loss:.4f}. Validation Loss: {valid_loss:.4f}. Training Acc.: {train_acc:2.2%}  Validation Acc.: {valid_acc:2.2%}')
 
+# plot the accuracy and loss curves
 val_loss=torch.tensor(valloss_history,device = 'cpu'); val_loss_np=val_loss.numpy()
 train_loss=torch.tensor(trainloss_history,device = 'cpu');train_loss_np=train_loss.numpy()
 train_acc=torch.tensor(trainacc_history,device = 'cpu');train_acc_np=train_acc.numpy()
@@ -205,6 +209,7 @@ plt.plot(val_acc_np,'g');plt.plot(train_acc_np,'r');
 plt.ylabel('Accuracy');plt.xlabel('Epochs')
 plt.ylim(0.3,0.98)
 
+# Save the model
 PATH= '/content/gdrive/MyDrive/ARKA/7class_disease_work/MSONN_results/MSONN_trained_on_'+str(ind_time)+'.pt'
 torch.save(model, PATH)
 torch.save(model.state_dict(), '/content/gdrive/MyDrive/ARKA/7class_disease_work/MSONN_results/MSONN_trained_on_'+str(ind_time)+'.pth')
