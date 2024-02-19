@@ -210,9 +210,8 @@ plt.ylabel('Accuracy');plt.xlabel('Epochs')
 plt.ylim(0.3,0.98)
 
 # Save the model
-PATH= '/content/gdrive/MyDrive/ARKA/7class_disease_work/MSONN_results/MSONN_trained_on_'+str(ind_time)+'.pt'
+PATH= "/content/gdrive/MyDrive/ARKA/Asthma_classification/ONN_Results/onn_entire_model.pt"
 torch.save(model, PATH)
-torch.save(model.state_dict(), '/content/gdrive/MyDrive/ARKA/7class_disease_work/MSONN_results/MSONN_trained_on_'+str(ind_time)+'.pth')
 
 
 
