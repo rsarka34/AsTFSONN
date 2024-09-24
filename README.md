@@ -4,12 +4,9 @@
 
 **Authors: Arka Roy, Udit Satija** 
 
-# Links
+# Train AsTFSONN
 
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/rsarka34/AsTFSONN/blob/main/model/AsTFSONN.ipynb)
-[![IEEE Xplore](path_to_your_image)](https://ieeexplore.ieee.org/abstract/document/10631581)
-
-
 
 
 # Abstract:
