@@ -4,8 +4,6 @@
 
 **Authors: Arka Roy, Udit Satija** 
 
-# Train AsTFSONN
-
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/rsarka34/AsTFSONN/blob/main/model/AsTFSONN.ipynb)
 
 
