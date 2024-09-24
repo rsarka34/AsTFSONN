@@ -6,39 +6,7 @@
 
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/rsarka34/AsTFSONN/blob/main/model/AsTFSONN.ipynb)
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<title>IEEE Paper Link</title>
-<style>
-  .button {
-    display: inline-block;
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 20px;
-    text-align: center;
-    border-radius: 4px;
-    text-decoration: none;
-  }
-  .button:hover {
-    background-color: #45a049;
-  }
-  .status {
-    display: inline-block;
-    color: white;
-    background-color: #555555;
-    padding: 10px 20px;
-    border-radius: 4px;
-  }
-</style>
-</head>
-<body>
-<a href="https://ieeexplore.ieee.org/abstract/document/10171911" target="_blank" class="button">
-  <span class="status">build</span> passing
-</a>
-</body>
-</html>
+[![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](https://ieeexplore.ieee.org/abstract/document/10171911)
 
 # Abstract:
 <p align="justify">
