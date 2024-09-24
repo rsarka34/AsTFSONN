@@ -5,7 +5,7 @@
 **Authors: Arka Roy, Udit Satija** 
 
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/rsarka34/AsTFSONN/blob/main/model/AsTFSONN.ipynb)
-[Button Icon]: [https://img.shields.io/badge/Installation-EF2D5E?style=for-the-badge&logoColor=white&logo=DocuSign](https://ieeexplore.ieee.org/abstract/document/10171911)
+[Button Icon]: https://ieeexplore.ieee.org/abstract/document/10171911
 
 # Abstract:
 <p align="justify">
