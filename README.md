@@ -5,7 +5,12 @@
 **Authors: Arka Roy, Udit Satija** 
 
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/rsarka34/AsTFSONN/blob/main/model/AsTFSONN.ipynb)
-[Button Icon]: https://ieeexplore.ieee.org/abstract/document/10171911
+<a href="https://ieeexplore.ieee.org/abstract/document/10171911" target="_blank" style="text-decoration:none;">
+  <div style="display: inline-block; padding: 5px 10px; background-color: #4CAF50; color: white; font-family: Arial, sans-serif; border-radius: 3px;">
+    <span style="background-color: #4E5557; color: white; padding: 5px 10px; border-radius: 3px;">build</span>
+    <span style="background-color: #4CAF50; color: white; padding: 5px 10px; border-radius: 3px;">passing</span>
+  </div>
+</a>
 
 # Abstract:
 <p align="justify">
