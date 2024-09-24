@@ -17,7 +17,7 @@ Asthma is one of the most severe chronic respiratory diseases which can be diagn
 
 # Results
 <p align="center">
-<img src="https://github.com/user-attachments/assets/a4f6027c-736e-4b98-843f-d807cf5dff0b" alt="Description of image" width="800"/>
+<img src="https://github.com/user-attachments/assets/a4f6027c-736e-4b98-843f-d807cf5dff0b" alt="Description of image" width="1000"/>
 </p>
 
 # Performance
