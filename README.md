@@ -1,8 +1,8 @@
 # AsTFSONN: A Unified Framework Based on Time-Frequency Domain Self-Operational Neural Network for Asthmatic Lung Sound Classification
-Authors: Arka Roy, Udit Satija, Department of Electrical Engineering, Indian Institute of Technology Patna.
-Published in  2023 IEEE International Symposium on Medical Measurements and Applications (MeMeA), Jeju, Republic of Korea. 
+**Authors: Arka Roy, Udit Satija** 
 
-#
+# Run model
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/rsarka34/AsTFSONN/blob/main/model/AsTFSONN.ipynb)
 
 # Abstract:
 <p align="justify">
