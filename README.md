@@ -28,6 +28,7 @@ Asthma is one of the most severe chronic respiratory diseases which can be diagn
 
 
 # Cite as
+A. Roy and U. Satija, "AsTFSONN: A Unified Framework Based on Time-Frequency Domain Self-Operational Neural Network for Asthmatic Lung Sound Classification," *2023 IEEE International Symposium on Medical Measurements and Applications (MeMeA)*, Jeju, Korea, Republic of, 2023, pp. 1-6, doi: 10.1109/MeMeA57477.2023.10171911.
 
 ```bibtex
 @INPROCEEDINGS{10171911,\
