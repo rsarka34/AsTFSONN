@@ -5,12 +5,40 @@
 **Authors: Arka Roy, Udit Satija** 
 
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/rsarka34/AsTFSONN/blob/main/model/AsTFSONN.ipynb)
-<a href="https://ieeexplore.ieee.org/abstract/document/10171911" target="_blank" style="text-decoration:none;">
-  <div style="display: inline-block; padding: 5px 10px; background-color: #4CAF50; color: white; font-family: Arial, sans-serif; border-radius: 3px;">
-    <span style="background-color: #4E5557; color: white; padding: 5px 10px; border-radius: 3px;">build</span>
-    <span style="background-color: #4CAF50; color: white; padding: 5px 10px; border-radius: 3px;">passing</span>
-  </div>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>IEEE Paper Link</title>
+<style>
+  .button {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 4px;
+    text-decoration: none;
+  }
+  .button:hover {
+    background-color: #45a049;
+  }
+  .status {
+    display: inline-block;
+    color: white;
+    background-color: #555555;
+    padding: 10px 20px;
+    border-radius: 4px;
+  }
+</style>
+</head>
+<body>
+<a href="https://ieeexplore.ieee.org/abstract/document/10171911" target="_blank" class="button">
+  <span class="status">build</span> passing
 </a>
+</body>
+</html>
 
 # Abstract:
 <p align="justify">
