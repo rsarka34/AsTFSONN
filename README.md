@@ -16,11 +16,13 @@ Asthma is one of the most severe chronic respiratory diseases which can be diagn
 ![block_diag_astfonn (1)](https://github.com/rsarka34/AsTFSONN/assets/89518952/4e7f719d-0f45-4a48-a8b5-dcd0e0bf0ffc)
 
 # Results
-![image](https://github.com/user-attachments/assets/a4f6027c-736e-4b98-843f-d807cf5dff0b)
+<p align="center">
+<img src="https://github.com/user-attachments/assets/a4f6027c-736e-4b98-843f-d807cf5dff0b" alt="Description of image" width="500"/>
+</p>
 
 # Performance
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/37ccee0d-e5dd-42ed-8f91-2ebd9337b59e" alt="Description of image" width="500"/>
+  <img src="https://github.com/user-attachments/assets/37ccee0d-e5dd-42ed-8f91-2ebd9337b59e" alt="Description of image" width="800"/>
 </p>
 
 
