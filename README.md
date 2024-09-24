@@ -7,7 +7,8 @@
 # Links
 
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/rsarka34/AsTFSONN/blob/main/model/AsTFSONN.ipynb)
-[<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/IEEE_logo.svg/320px-IEEE_logo.svg.png" alt="IEEE Xplore" width="100" height="auto">](https://ieeexplore.ieee.org/abstract/document/10631581)
+[<img src="assets/ieee_logo.png" alt="IEEE Xplore" width="100" height="auto">](https://ieeexplore.ieee.org/abstract/document/10631581)
+
 
 
 # Abstract:
