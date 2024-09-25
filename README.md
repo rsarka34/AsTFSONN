@@ -30,12 +30,12 @@ Asthma is one of the most severe chronic respiratory diseases which can be diagn
 A. Roy and U. Satija, "AsTFSONN: A Unified Framework Based on Time-Frequency Domain Self-Operational Neural Network for Asthmatic Lung Sound Classification," *2023 IEEE International Symposium on Medical Measurements and Applications (MeMeA)*, Jeju, Korea, Republic of, 2023, pp. 1-6, doi: 10.1109/MeMeA57477.2023.10171911.
 
 ```bibtex
-@INPROCEEDINGS{10171911,\
-  author={Roy, Arka and Satija, Udit},\
-  booktitle={2023 IEEE International Symposium on Medical Measurements and Applications (MeMeA)},\ 
-  title={AsTFSONN: A Unified Framework Based on Time-Frequency Domain Self-Operational Neural Network for Asthmatic Lung Sound Classification},\ 
-  year={2023},\
-  volume={},\
-  number={},\
-  pages={1-6},\
+@INPROCEEDINGS{10171911,
+  author={Roy, Arka and Satija, Udit},
+  booktitle={2023 IEEE International Symposium on Medical Measurements and Applications (MeMeA)},
+  title={AsTFSONN: A Unified Framework Based on Time-Frequency Domain Self-Operational Neural Network for Asthmatic Lung Sound Classification},
+  year={2023},
+  volume={},
+  number={},
+  pages={1-6},
   doi={10.1109/MeMeA57477.2023.10171911}}
